@@ -241,6 +241,22 @@ pre > code {
 	padding: 0;
 	margin: 0;
 }
+.section-divider-container {
+    background-color: #FFFFFF; /* White background */
+    padding: 2rem 0; /* Adjust spacing above and below the divider */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-divider {
+    width: 80%;
+    height: 2px;
+    background: linear-gradient(to right, #FFFFFF, #614423, #FFFFFF); 
+    opacity: 1;
+}
+
+
 pre.prettyprint > code {
 	border: none;
 }
@@ -1019,7 +1035,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	background: #C6AC8F;
 }
 .grey-section p.lead {
-	color: #7d7d7d;
+	color: #e7e7e7;
 }
 .section-intro {
 	max-width: 700px;
