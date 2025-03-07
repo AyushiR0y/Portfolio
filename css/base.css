@@ -87,7 +87,7 @@ h1 {
 }
 
 mark {
-	background: rgb(151, 202, 163);
+	background: rgb(255, 250, 214);
 	color: #000;
 }
 
@@ -207,7 +207,7 @@ input[type="search"]::-webkit-search-decoration {
 }
 
 fieldset {
-	border: 1px solid #c0c0c0;
+	border: 1px solid #e2e2e2;
 	margin: 0 2px;
 	padding: 0.35em 0.625em 0.75em;
 }
